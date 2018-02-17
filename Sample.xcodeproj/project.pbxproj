@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		577EFE402038A0CD009E33DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EFE3F2038A0CD009E33DC /* main.swift */; };
+		577EFE472038A12F009E33DC /* flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EFE462038A12F009E33DC /* flight.swift */; };
+		577EFE492038A154009E33DC /* airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EFE482038A154009E33DC /* airline.swift */; };
+		577EFE4B2038A167009E33DC /* airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EFE4A2038A167009E33DC /* airport.swift */; };
+		577EFE4D2038A17E009E33DC /* management_company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EFE4C2038A17E009E33DC /* management_company.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		577EFE3C2038A0CD009E33DC /* Sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sample; sourceTree = BUILT_PRODUCTS_DIR; };
 		577EFE3F2038A0CD009E33DC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		577EFE462038A12F009E33DC /* flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flight.swift; sourceTree = "<group>"; };
+		577EFE482038A154009E33DC /* airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airline.swift; sourceTree = "<group>"; };
+		577EFE4A2038A167009E33DC /* airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airport.swift; sourceTree = "<group>"; };
+		577EFE4C2038A17E009E33DC /* management_company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = management_company.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				577EFE3F2038A0CD009E33DC /* main.swift */,
+				577EFE462038A12F009E33DC /* flight.swift */,
+				577EFE482038A154009E33DC /* airline.swift */,
+				577EFE4A2038A167009E33DC /* airport.swift */,
+				577EFE4C2038A17E009E33DC /* management_company.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				577EFE402038A0CD009E33DC /* main.swift in Sources */,
+				577EFE4B2038A167009E33DC /* airport.swift in Sources */,
+				577EFE492038A154009E33DC /* airline.swift in Sources */,
+				577EFE4D2038A17E009E33DC /* management_company.swift in Sources */,
+				577EFE472038A12F009E33DC /* flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
